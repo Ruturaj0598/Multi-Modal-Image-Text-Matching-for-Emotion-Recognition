@@ -52,6 +52,7 @@ This project is licensed under the MIT License.
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/Tandon-A/emotic/}},
 }
+
 @article{kosti2020context,
   title={Context based emotion recognition using emotic dataset},
   author={Kosti, Ronak and Alvarez, Jose M and Recasens, Adria and Lapedriza, Agata},
