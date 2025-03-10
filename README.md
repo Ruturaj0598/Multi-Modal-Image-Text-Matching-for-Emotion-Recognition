@@ -19,7 +19,7 @@ The baseline model is a multi-modal deep learning model that combines image feat
 ## Part 2: Fusion via Joint Embedding
 ----------------------------------
 
-The second part of the project involves fusion via joint embedding in a shared latent space. This approach maps features from different modalities (e.g., image, text, audio) into a common embedding space where their relationships and correlations are preserved. The code for this part can be found in the [Part 2 Notebook](JointEmbedding.ipynb).
+The second part of the project involves fusion via joint embedding in a shared latent space. This approach maps features from different modalities (e.g., image, text, audio) into a common embedding space where their relationships and correlations are preserved. The code for this part can be found in the [Part 2 Notebook](Jointembedding.ipynb).
 
 ## Part 3: Security and Robustness Evaluation
 -----------------------------------------
