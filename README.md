@@ -4,9 +4,12 @@
 This repository contains a project on multi-modal deep learning model that combines image features with textual descriptions to predict the dominant emotion conveyed by the image. The project is developed in three parts:
 
 ## Data Preparation
+-------------------
 1. The emotic dataset can be downloaded from [Emotics Dataset](https://forms.gle/wvhComeDHwQPD6TE6). Request the access to the admin and the admin will send it through the email id submitted in the form.
 2. Download the PAMI version from the email. DAtaset and annotations both should be downloaded.
-3. For converting the dataset into npy files and CSV file use 
+3. For converting the dataset into npy files and CSV file use [NPY Generator](mat2py.py)
+
+Your data is ready to be processed.
 
 ## Part 1: Baseline Model
 ------------------------
