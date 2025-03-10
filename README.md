@@ -7,7 +7,7 @@ This repository contains a project on multi-modal deep learning model that combi
 -------------------
 1. The emotic dataset can be downloaded from [Emotics Dataset](https://forms.gle/wvhComeDHwQPD6TE6). Request the access to the admin and the admin will send it through the email id submitted in the form.
 2. Download the PAMI version from the email. DAtaset and annotations both should be downloaded.
-3. For converting the dataset into npy files and CSV file use [NPY Generator](mat2py.py)
+3. For converting the dataset into npy files and CSV file use [NPY Generator](mat2py.py) [1]
 
 Your data is ready to be processed.
 
@@ -41,3 +41,20 @@ Contributions are welcome! If you have any questions or issues, please open an i
 ### License
 -------
 This project is licensed under the MIT License.
+
+### References
+@misc{tandon2020emotic,
+  author = {Tandon, Abhishek},
+  title = {Emotic: Context Based Emotion Recognition},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Tandon-A/emotic/}},
+}
+@article{kosti2020context,
+  title={Context based emotion recognition using emotic dataset},
+  author={Kosti, Ronak and Alvarez, Jose M and Recasens, Adria and Lapedriza, Agata},
+  journal={arXiv preprint arXiv:2003.13401},
+  year={2020}
+}
+
