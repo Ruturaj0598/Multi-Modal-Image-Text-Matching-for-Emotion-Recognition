@@ -43,6 +43,7 @@ Contributions are welcome! If you have any questions or issues, please open an i
 This project is licensed under the MIT License.
 
 ### References
+-------------------
 @misc{tandon2020emotic,
   author = {Tandon, Abhishek},
   title = {Emotic: Context Based Emotion Recognition},
