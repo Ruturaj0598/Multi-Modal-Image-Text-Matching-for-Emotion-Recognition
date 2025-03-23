@@ -14,7 +14,7 @@ Your data is ready to be processed.
 ## Part 1: Baseline Model
 ------------------------
 
-The baseline model is a multi-modal deep learning model that combines image features with textual descriptions to predict the dominant emotion conveyed by the image. The embedding is separated for the baseline model. The code for this part can be found in the [Part 1 Notebook](Baselinemodel.ipynb).
+The baseline model is a multi-modal deep learning model that combines image features with textual descriptions to predict the dominant emotion conveyed by the image. The embedding is separated for the baseline model. The code for this part can be found in the [Part 1 Notebook](Baseline_model.ipynb).
 
 ## Part 2: Fusion via Joint Embedding
 ----------------------------------
