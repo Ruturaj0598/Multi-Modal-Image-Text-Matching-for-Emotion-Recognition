@@ -3,6 +3,14 @@
 
 This repository contains a project on multi-modal deep learning model that combines image features with textual descriptions to predict the dominant emotion conveyed by the image. The project is developed in three parts:
 
+## Data Preparation
+-------------------
+1. The emotic dataset can be downloaded from [Emotics Dataset](https://forms.gle/wvhComeDHwQPD6TE6). Request the access to the admin and the admin will send it through the email id submitted in the form.
+2. Download the PAMI version from the email. DAtaset and annotations both should be downloaded.
+3. For converting the dataset into npy files and CSV file use [NPY Generator](mat2py.py) [1]
+
+Your data is ready to be processed.
+
 ## Part 1: Baseline Model
 ------------------------
 
@@ -11,7 +19,7 @@ The baseline model is a multi-modal deep learning model that combines image feat
 ## Part 2: Fusion via Joint Embedding
 ----------------------------------
 
-The second part of the project involves fusion via joint embedding in a shared latent space. This approach maps features from different modalities (e.g., image, text, audio) into a common embedding space where their relationships and correlations are preserved. The code for this part can be found in the [Part 2 Notebook](YYYY.ipynb).
+The second part of the project involves fusion via joint embedding in a shared latent space. This approach maps features from different modalities (e.g., image, text, audio) into a common embedding space where their relationships and correlations are preserved. The code for this part can be found in the [Part 2 Notebook](Jointembedding.ipynb).
 
 ## Part 3: Security and Robustness Evaluation
 -----------------------------------------
@@ -33,3 +41,22 @@ Contributions are welcome! If you have any questions or issues, please open an i
 ### License
 -------
 This project is licensed under the MIT License.
+
+### References
+-------------------
+@misc{tandon2020emotic,
+  author = {Tandon, Abhishek},
+  title = {Emotic: Context Based Emotion Recognition},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Tandon-A/emotic/}},
+}
+
+@article{kosti2020context,
+  title={Context based emotion recognition using emotic dataset},
+  author={Kosti, Ronak and Alvarez, Jose M and Recasens, Adria and Lapedriza, Agata},
+  journal={arXiv preprint arXiv:2003.13401},
+  year={2020}
+}
+
