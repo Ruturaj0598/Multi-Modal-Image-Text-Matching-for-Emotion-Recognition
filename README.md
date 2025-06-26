@@ -28,7 +28,7 @@ The baseline model is a multi-modal deep learning model that combines image feat
 
 The second part of the project involves fusion via joint embedding in a shared latent space. This approach maps features from different modalities (e.g., image, text, audio) into a common embedding space where their relationships and correlations are preserved. 
 <br> **Emoticon Implementation**: [Joint_model_Emotic](Joint_embedding.ipynb)
-<br> **Flickr8k Implementation**: [Joint_model_Flickr](Joint_model_Flickr.ipynb)
+<br> **Flickr8k Implementation**: [Joint_model_Flickr](Joint_embedding_Flickr.ipynb)
 
 ## Part 3: Security and Robustness Evaluation 🔒
 -----------------------------------------
