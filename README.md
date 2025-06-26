@@ -20,21 +20,21 @@ Your data is ready to be processed.
 ## Part 1: Baseline Model 🏗️
 ------------------------
 
-The baseline model is a multi-modal deep learning model that combines image features with textual descriptions to predict the dominant emotion conveyed by the image. The embedding is separated for the baseline model. <br> **Emoticon Implementation**: [Baseline_model_Emotic](Baseline_model.ipynb)
+The baseline model is a multi-modal deep learning model that combines image features with textual descriptions to predict the dominant emotion conveyed by the image. The embedding is separated for the baseline model. <br> **Emotic Implementation**: [Baseline_model_Emotic](Baseline_model.ipynb)
 <br> **Flickr8k Implementation**: [Baseline_model_Flickr](Baseline_model_Flickr.ipynb)
 
 ## Part 2: Fusion via Joint Embedding 🤝
 ----------------------------------
 
 The second part of the project involves fusion via joint embedding in a shared latent space. This approach maps features from different modalities (e.g., image, text, audio) into a common embedding space where their relationships and correlations are preserved. 
-<br> **Emoticon Implementation**: [Joint_model_Emotic](Joint_embedding.ipynb)
+<br> **Emotic Implementation**: [Joint_model_Emotic](Joint_embedding.ipynb)
 <br> **Flickr8k Implementation**: [Joint_model_Flickr](Joint_embedding_Flickr.ipynb)
 
 ## Part 3: Security and Robustness Evaluation 🔒
 -----------------------------------------
 
 The final part of the project involves evaluating the security and robustness of the multi-modal emotion recognition model based on the above two variants. To study this, we focus on Data Poisoning, specifically the Pixel Attack, which involves modifying a small number of pixels in an image to create an adversarial sample.
-<br> **Emoticon Implementation**: [Evaluation_Emotic](Robustness_evaluation.ipynb)
+<br> **Emotic Implementation**: [Evaluation_Emotic](Robustness_evaluation.ipynb)
 <br> **Flickr8k Implementation**: [Evaluation_Flickr](Robustness_evaluation_Flickr.ipynb)
 
 ### Datasets 📊
@@ -44,7 +44,7 @@ The datasets used in this project are:
 
 | Dataset | Type | Samples | Modalities | Task |
 |---------|------|---------|------------|------|
-| **Emoticon** | Emotion recognition | 23,571 | Image + Text | Emotion classification |
+| **Emotic** | Emotion recognition | 23,571 | Image + Text | Emotion classification |
 | **Flickr8k** | Image captioning | 8,000 | Image + Text | Cross-modal retrieval |
 
 ### Contributing ✨
