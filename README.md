@@ -1,7 +1,12 @@
 # Multi-Modal Emotion Recognition Model 🖼️📝
 =====================================
 
-This repository contains a project on multi-modal deep learning models that combine image features 🖼️ with textual descriptions 📝 to predict the dominant emotion conveyed by images. The project is developed and evaluated on two datasets: Emotic (context-based emotion recognition) and Flickr8k (image-text retrieval). The system includes three main components:
+This repository contains a project on multi-modal deep learning models that combine image features 🖼️ with textual descriptions 📝 to predict the dominant emotion conveyed by images. The project is developed and evaluated on two datasets: Emotic (context-based emotion recognition) and Flickr8k (image-text retrieval).
+
+## 📝 Project Attribution
+-----------------------
+
+This project was developed as an additional research initiative by the **IDACUS group from Furtwangen University**. This work was conducted as an independent project without any formal requirements from the university side.
 
 ## 📦 Data Preparation
 -------------------
@@ -15,7 +20,7 @@ This repository contains a project on multi-modal deep learning models that comb
 1. Download from [Flickr8k Dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k)
 2. For converting the dataset into npy files and CSV file use [NPY Generator_Flickr](prepare_flickr8k.py)
 
-Your data is ready to be processed.
+Your data is ready to be processed. The system includes three main components:
 
 ## Part 1: Baseline Model 🏗️
 ------------------------
@@ -50,6 +55,20 @@ The datasets used in this project are:
 ### Contributing ✨
 ------------
 Contributions are welcome! If you have any questions or issues, please open an issue or pull request.
+
+### Citation 📋
+-------------
+If you use this repository in your research or projects, please cite it as:
+
+@misc{multimodal_emotion_recognition_2025,
+author = {IDACUS Group, Hochschule Furtwangen University},
+title = {Multi-Modal Image-Text Matching for Emotion Recognition},
+year = {2025},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/Ruturaj0598/Multi-Modal-Image-Text-Matching-for-Emotion-Recognition}},
+note = {Additional research project - no university requirements}
+}
 
 ### License 📜
 -------
